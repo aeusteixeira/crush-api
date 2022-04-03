@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Link from 'next/link';
 
 function Home(){
     return (
@@ -6,6 +7,11 @@ function Home(){
             <h1>
                 Crush API
             </h1>
+            <Link href="/sobre">
+                <a>
+                    Sobre
+                </a>
+            </Link>
             <Contador />
         </div>
     )
