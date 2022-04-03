@@ -1,20 +1,9 @@
 {
     "crushes": [
         {
+            "id": "1",
             "nome": "Marcos Paulo",
             "apelido": "marquinho",
-            "best_feature": "todo lindo",
-            "defeitos": null
-        },
-        {
-            "nome": "João",
-            "apelido": "joaozinho",
-            "best_feature": "todo lindo",
-            "defeitos": null
-        },
-        {
-            "nome": "Maria",
-            "apelido": "maria",
             "best_feature": "todo lindo",
             "defeitos": null
         }
