@@ -4,8 +4,26 @@ function Home(){
     return (
         <div>
             <h1>
-                Página inicial
+                Crush API
             </h1>
+            <Contador />
+        </div>
+    )
+}
+
+function Contador(){
+    const [count, setCount] = useState(0);
+
+    function increment(){
+        setCount(count + 1);
+    }
+
+    return (
+        <div>
+            <p>{count} crushes</p>
+            <button onClick={() => setCount(count + 1)}>
+                Click me
+            </button>
         </div>
     )
 }
